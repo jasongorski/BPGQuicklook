@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26ECDF8E1A4885310092EE5C /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ECDF8D1A4885310092EE5C /* GenerateThumbnailForURL.m */; };
+		26ECDF901A4885310092EE5C /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ECDF8F1A4885310092EE5C /* GeneratePreviewForURL.m */; };
+		26ECDF921A4885310092EE5C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 26ECDF911A4885310092EE5C /* main.c */; };
+		26ECDFD31A488A450092EE5C /* liblibbpgdec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26ECDFD21A488A3B0092EE5C /* liblibbpgdec.a */; };
+		26ECDFD61A488B1E0092EE5C /* BPGDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 26ECDFD41A488B1E0092EE5C /* BPGDecoder.h */; };
+		26ECDFD71A488B1E0092EE5C /* BPGDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 26ECDFD51A488B1E0092EE5C /* BPGDecoder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26ECDFA31A48875A0092EE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26ECDF981A4887590092EE5C /* libbpg.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 265DAC591A399D4E00BE1B3B;
+			remoteInfo = "libbpg demo";
+		};
+		26ECDFA51A48875A0092EE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26ECDF981A4887590092EE5C /* libbpg.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 265DAC711A399D4E00BE1B3B;
+			remoteInfo = "libbpg demoTests";
+		};
+		26ECDFA71A48875A0092EE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26ECDF981A4887590092EE5C /* libbpg.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 265DADF31A399FB100BE1B3B;
+			remoteInfo = libbpgdec_ios;
+		};
+		26ECDFA91A48875A0092EE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26ECDF981A4887590092EE5C /* libbpg.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 265DADFD1A399FB200BE1B3B;
+			remoteInfo = libbpgdec_iosTests;
+		};
+		26ECDFAB1A48875A0092EE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26ECDF981A4887590092EE5C /* libbpg.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 265DAE161A399FCC00BE1B3B;
+			remoteInfo = libbpgenc_ios;
+		};
+		26ECDFAD1A48875A0092EE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26ECDF981A4887590092EE5C /* libbpg.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 265DAE201A399FCD00BE1B3B;
+			remoteInfo = libbpgenc_iosTests;
+		};
+		26ECDFAF1A48875A0092EE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26ECDF981A4887590092EE5C /* libbpg.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 265DAEFC1A39A79400BE1B3B;
+			remoteInfo = bpgenc;
+		};
+		26ECDFB11A48875A0092EE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26ECDF981A4887590092EE5C /* libbpg.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 26A226011A3A1D9B008D8663;
+			remoteInfo = bpgdec;
+		};
+		26ECDFCE1A488A3B0092EE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26ECDF981A4887590092EE5C /* libbpg.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 26ECDFB61A4887B70092EE5C;
+			remoteInfo = libbpgdec;
+		};
+		26ECDFD11A488A3B0092EE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26ECDF981A4887590092EE5C /* libbpg.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 26ECDFB71A4887B70092EE5C;
+			remoteInfo = libbpgdec;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26ECDF881A4885310092EE5C /* BPGQuicklook.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BPGQuicklook.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		26ECDF8C1A4885310092EE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26ECDF8D1A4885310092EE5C /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
+		26ECDF8F1A4885310092EE5C /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
+		26ECDF911A4885310092EE5C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		26ECDF981A4887590092EE5C /* libbpg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libbpg.xcodeproj; path = "libbpg-xcode/libbpg.xcodeproj"; sourceTree = "<group>"; };
+		26ECDFD41A488B1E0092EE5C /* BPGDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPGDecoder.h; sourceTree = "<group>"; };
+		26ECDFD51A488B1E0092EE5C /* BPGDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPGDecoder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26ECDF841A4885310092EE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26ECDFD31A488A450092EE5C /* liblibbpgdec.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26ECDF7E1A4885310092EE5C = {
+			isa = PBXGroup;
+			children = (
+				26ECDF981A4887590092EE5C /* libbpg.xcodeproj */,
+				26ECDF8A1A4885310092EE5C /* BPGQuicklook */,
+				26ECDF891A4885310092EE5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26ECDF891A4885310092EE5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26ECDF881A4885310092EE5C /* BPGQuicklook.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26ECDF8A1A4885310092EE5C /* BPGQuicklook */ = {
+			isa = PBXGroup;
+			children = (
+				26ECDFD41A488B1E0092EE5C /* BPGDecoder.h */,
+				26ECDFD51A488B1E0092EE5C /* BPGDecoder.m */,
+				26ECDF8D1A4885310092EE5C /* GenerateThumbnailForURL.m */,
+				26ECDF8F1A4885310092EE5C /* GeneratePreviewForURL.m */,
+				26ECDF911A4885310092EE5C /* main.c */,
+				26ECDF8B1A4885310092EE5C /* Supporting Files */,
+			);
+			path = BPGQuicklook;
+			sourceTree = "<group>";
+		};
+		26ECDF8B1A4885310092EE5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26ECDF8C1A4885310092EE5C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26ECDF991A4887590092EE5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26ECDFA41A48875A0092EE5C /* libbpg demo.app */,
+				26ECDFA61A48875A0092EE5C /* libbpg demoTests.xctest */,
+				26ECDFA81A48875A0092EE5C /* libbpgdec_ios.framework */,
+				26ECDFAA1A48875A0092EE5C /* libbpgdec_iosTests.xctest */,
+				26ECDFAC1A48875A0092EE5C /* liblibbpgenc_ios.a */,
+				26ECDFAE1A48875A0092EE5C /* libbpgenc_iosTests.xctest */,
+				26ECDFB01A48875A0092EE5C /* bpgenc */,
+				26ECDFB21A48875A0092EE5C /* bpgdec */,
+				26ECDFD21A488A3B0092EE5C /* liblibbpgdec.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		26ECDF851A4885310092EE5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26ECDFD61A488B1E0092EE5C /* BPGDecoder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26ECDF871A4885310092EE5C /* BPGQuicklook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26ECDF951A4885310092EE5C /* Build configuration list for PBXNativeTarget "BPGQuicklook" */;
+			buildPhases = (
+				26ECDF831A4885310092EE5C /* Sources */,
+				26ECDF841A4885310092EE5C /* Frameworks */,
+				26ECDF851A4885310092EE5C /* Headers */,
+				26ECDF861A4885310092EE5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26ECDFCF1A488A3B0092EE5C /* PBXTargetDependency */,
+			);
+			name = BPGQuicklook;
+			productName = BPGQuicklook;
+			productReference = 26ECDF881A4885310092EE5C /* BPGQuicklook.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26ECDF7F1A4885310092EE5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Bad Dream";
+				TargetAttributes = {
+					26ECDF871A4885310092EE5C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 26ECDF821A4885310092EE5C /* Build configuration list for PBXProject "BPGQuicklook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26ECDF7E1A4885310092EE5C;
+			productRefGroup = 26ECDF891A4885310092EE5C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 26ECDF991A4887590092EE5C /* Products */;
+					ProjectRef = 26ECDF981A4887590092EE5C /* libbpg.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				26ECDF871A4885310092EE5C /* BPGQuicklook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		26ECDFA41A48875A0092EE5C /* libbpg demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "libbpg demo.app";
+			remoteRef = 26ECDFA31A48875A0092EE5C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		26ECDFA61A48875A0092EE5C /* libbpg demoTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "libbpg demoTests.xctest";
+			remoteRef = 26ECDFA51A48875A0092EE5C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		26ECDFA81A48875A0092EE5C /* libbpgdec_ios.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = libbpgdec_ios.framework;
+			remoteRef = 26ECDFA71A48875A0092EE5C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		26ECDFAA1A48875A0092EE5C /* libbpgdec_iosTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = libbpgdec_iosTests.xctest;
+			remoteRef = 26ECDFA91A48875A0092EE5C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		26ECDFAC1A48875A0092EE5C /* liblibbpgenc_ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = liblibbpgenc_ios.a;
+			remoteRef = 26ECDFAB1A48875A0092EE5C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		26ECDFAE1A48875A0092EE5C /* libbpgenc_iosTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = libbpgenc_iosTests.xctest;
+			remoteRef = 26ECDFAD1A48875A0092EE5C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		26ECDFB01A48875A0092EE5C /* bpgenc */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = bpgenc;
+			remoteRef = 26ECDFAF1A48875A0092EE5C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		26ECDFB21A48875A0092EE5C /* bpgdec */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = bpgdec;
+			remoteRef = 26ECDFB11A48875A0092EE5C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		26ECDFD21A488A3B0092EE5C /* liblibbpgdec.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = liblibbpgdec.a;
+			remoteRef = 26ECDFD11A488A3B0092EE5C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26ECDF861A4885310092EE5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26ECDF831A4885310092EE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26ECDF8E1A4885310092EE5C /* GenerateThumbnailForURL.m in Sources */,
+				26ECDF901A4885310092EE5C /* GeneratePreviewForURL.m in Sources */,
+				26ECDFD71A488B1E0092EE5C /* BPGDecoder.m in Sources */,
+				26ECDF921A4885310092EE5C /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26ECDFCF1A488A3B0092EE5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libbpgdec;
+			targetProxy = 26ECDFCE1A488A3B0092EE5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26ECDF931A4885310092EE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		26ECDF941A4885310092EE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		26ECDF961A4885310092EE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"libbpg-xcode",
+				);
+				INFOPLIST_FILE = BPGQuicklook/Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Debug;
+		};
+		26ECDF971A4885310092EE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"libbpg-xcode",
+				);
+				INFOPLIST_FILE = BPGQuicklook/Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26ECDF821A4885310092EE5C /* Build configuration list for PBXProject "BPGQuicklook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26ECDF931A4885310092EE5C /* Debug */,
+				26ECDF941A4885310092EE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26ECDF951A4885310092EE5C /* Build configuration list for PBXNativeTarget "BPGQuicklook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26ECDF961A4885310092EE5C /* Debug */,
+				26ECDF971A4885310092EE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26ECDF7F1A4885310092EE5C /* Project object */;
+}
